@@ -1,0 +1,17 @@
+.svg {
+width: 1.5rem;
+height: 1.5rem;
+}
+
+.svg:hover {
+  fill: url(#gradiente-base);
+  transition: fill 0.3s ease;
+}
+
+/* colocar esse defs no svg que for usar
+ <defs>
+  <lineargradient id="gradiente-base" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FC4A1A"/>
+    <stop offset="100%" stop-color="#f7b733"/>
+  </lineargradient> */
+  
